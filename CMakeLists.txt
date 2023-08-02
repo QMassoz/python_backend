@@ -56,17 +56,17 @@ include(ExternalProject)
 
 FetchContent_Declare(
   repo-common
-  GIT_REPOSITORY https://github.com/triton-inference-server/common.git
+  GIT_REPOSITORY https://github.com/QMassoz/common.git
   GIT_TAG ${TRITON_COMMON_REPO_TAG}
 )
 FetchContent_Declare(
   repo-core
-  GIT_REPOSITORY https://github.com/triton-inference-server/core.git
+  GIT_REPOSITORY https://github.com/QMassoz/core.git
   GIT_TAG ${TRITON_CORE_REPO_TAG}
 )
 FetchContent_Declare(
   repo-backend
-  GIT_REPOSITORY https://github.com/triton-inference-server/backend.git
+  GIT_REPOSITORY https://github.com/QMassoz/backend.git
   GIT_TAG ${TRITON_BACKEND_REPO_TAG}
 )
 FetchContent_MakeAvailable(repo-common repo-core repo-backend)
